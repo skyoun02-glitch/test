@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>우리 집 장보기</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap">
 <style>
   :root {
     --bg: #f7f5ec;
@@ -22,7 +25,7 @@
     margin: 0;
     background: var(--bg);
     color: var(--ink);
-    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    font-family: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
     line-height: 1.5;
   }
   .wrap { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
@@ -115,6 +118,8 @@
     border: 1px solid var(--green); background: var(--card); color: var(--green-dark);
   }
   .actions button:hover { background: var(--green-soft); }
+  /* 귀여운 제목 글꼴: 제목, 카테고리, 버튼 (버튼의 font: inherit 뒤에 와야 적용됨) */
+  h1, .cat h2, .progress-text, form.add button, .actions button { font-family: "Jua", "Gowun Dodum", "Malgun Gothic", sans-serif; font-weight: 400; }
 </style>
 </head>
 <body>
