@@ -1,5 +1,14 @@
 # HyperFrames Composition Project
 
+## 이 폴더의 영상 규칙 (항상 지키기)
+
+이 폴더에서 만드는 모든 영상은 아래 규칙을 따른다.
+
+- **크기:** 세로 릴스 크기 1080×1920 (9:16). `data-width="1080"` `data-height="1920"`, `data-resolution="portrait"`.
+- **글자:** 크게 쓰고(세로 화면에서 휴대폰으로 바로 읽히는 크기), 한 글자 묶음은 화면에 1.5초 이상 머물게 한다.
+- **색:** 사용자가 지정한 색이 있으면 그 색을 쓴다. 없으면 영상 내용과 분위기에 맞는 색을 직접 고른다.
+- **금지:** 보라색 그라데이션은 쓰지 않는다 (배경, 글자, 도형 모두).
+
 ## Skills — USE THESE FIRST
 
 **Always invoke the relevant skill before writing or modifying compositions.** Skills encode framework-specific patterns (e.g., `window.__timelines` registration, `data-*` attribute semantics, shader-compatible CSS rules) that are NOT in generic web docs. Skipping them produces broken compositions.
