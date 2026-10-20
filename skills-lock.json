@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "explainer-default": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/explainer-default/SKILL.md",
+      "computedHash": "9a51b28f5c16c66d87ec9bca3acbf0fa394c3ee35f66c611505f50ddc770596a"
+    },
+    "explainer-engaging": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/explainer-engaging/SKILL.md",
+      "computedHash": "f2ebddc8574418d48a3b46f7dcd734535c2db37e5f3691815aba86b9335c8119"
+    },
+    "explainer-high-energy": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/explainer-high-energy/SKILL.md",
+      "computedHash": "17a848d4f72bfa6f598f72185734a971933ff7d0ea58b3c2f1e6d67a91c71781"
+    },
+    "motion-broll": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/motion-broll/SKILL.md",
+      "computedHash": "73781a458082cd125c37d5e5855412d6f398f72016301d0afd0b352a23191698"
+    },
+    "object-separation": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/object-separation/SKILL.md",
+      "computedHash": "2e1f8ade7d93c1b805a8f5e2f0a4bed3a2a79464f9fa0a844f4b5d84a135f58c"
+    },
+    "sound-effects": {
+      "source": "Barty-Bart/motion-graphics",
+      "sourceType": "github",
+      "skillPath": "skills/sound-effects/SKILL.md",
+      "computedHash": "2aab69bb456940b6522c1b4e335e9110d0316a7975f2f1bac84e0e1227201a05"
+    }
+  }
+}
